@@ -31,13 +31,15 @@ li {
 .container {
     width: 20%;
     position: relative;
+    transition: transform 500ms;
+    display: block;
 }
 
 .container img {
     width: 100%;
     opacity: 1;
     height: auto;
-    transition: .5s ease-in-out;
+    display: block;
 }
 
 .row .container:focus,
@@ -76,4 +78,9 @@ li {
     bottom: 0;
     padding: 30px;
     width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
 }
